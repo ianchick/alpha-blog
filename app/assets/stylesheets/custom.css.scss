@@ -30,7 +30,7 @@ $navbar-default-bg: #7c7c7c;
 }
 
 .jumbotron {
-    background-image: url("/assets/homejumbo.jpg");
+    background-image: asset-url("homejumbo.jpg");
     background-size: cover;
     height: 650px;
 }
