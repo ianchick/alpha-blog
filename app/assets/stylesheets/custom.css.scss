@@ -11,6 +11,10 @@ $navbar-default-bg: #7c7c7c;
     background: #7c7c7c;
 }
 
+.navbar-nav li .dropdown-menu a:hover {
+    background: #B6B6B6;
+}
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -23,6 +27,20 @@ $navbar-default-bg: #7c7c7c;
 #logo:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.jumbotron {
+    background-image: url("/assets/homejumbo.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: -1px;
+    font-weight: bold;
 }
 
 .center {
