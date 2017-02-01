@@ -1,8 +1,6 @@
 $navbar-default-bg: #7c7c7c;
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 .navbar-default .navbar-nav li a {
     color: #fff;
 }
@@ -32,7 +30,7 @@ $navbar-default-bg: #7c7c7c;
 .jumbotron {
     background-image: asset-url("homejumbo.jpg");
     background-size: cover;
-    height: 650px;
+    height: 550px;
 }
 
 .jumbotron h1 {
